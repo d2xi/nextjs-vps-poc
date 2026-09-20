@@ -1,6 +1,6 @@
 const status = "Running";
 
-function StatusCard({ title, value }) {
+function StatusCard({ title, value }: { title: string; value: string }) {
   return (
     <div>
       <h2>
